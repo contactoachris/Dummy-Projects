@@ -1,0 +1,42 @@
+/* Home Container */
+/* ---------------------------------------------------------------- */
+#home-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  /* to position the text at the rigth botom corner */
+  /* ---------------------------------------------------------------- */
+  align-items: end;
+  justify-content: flex-end;
+  /* ---------------------------------------------------------------- */
+
+  background-image: url(../images/2024-Ferrari-SF90-XX-Stradale.png);
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+/* ---------------------------------------------------------------- */
+/* Home Text */
+/* ---------------------------------------------------------------- */
+
+.pre-head {
+  font-family: "Sainte Colombe";
+  font-size: 18px;
+}
+
+.home-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 0 4vw 6vh 0;
+
+  width: auto;
+  height: 60%;
+
+  color: #ffffff;
+}

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Founders Grotesk";
+  color: #ffffff;
+
+  scroll-behavior: smooth;
+}
+
+/* ---------------------------------------------------------------- */
+/* Text */
+/* ---------------------------------------------------------------- */
+h1 {
+  font-size: 80px;
+  font-family: "Sainte Colombe";
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: "Sainte Colombe";
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Sainte Colombe";
+}
+
+h4 {
+  font-size: 32px;
+  font-family: "Sainte Colombe";
+  font-weight: 200;
+
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Founders Grotesk";
+  font-weight: 100;
+  /* word-spacing: 4px; */
+  letter-spacing: 1px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Links */
+/* ---------------------------------------------------------------- */
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ---------------------------------------------------------------- */
+/* Navbar */
+/* ---------------------------------------------------------------- */
+
+#navbar {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  position: fixed;
+
+  /* Makes sure navbar is on top of all other elements */
+  z-index: 10;
+
+  background-color: hsla(0, 0%, 0%, 80%);
+}
+
+nav {
+  width: 80vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 20px auto;
+
+  /* background-color: hsl(0, 0%, 20%); */
+  color: #ffffff;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+nav ul li {
+  list-style: none;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------- */
+/* Main */
+/* ---------------------------------------------------------------- */
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 100px;
+
+  background: linear-gradient(hsla(16, 75%, 41%, 1), hsla(16, 76%, 14%, 1));
+}
